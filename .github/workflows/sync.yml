@@ -3,7 +3,7 @@ name: Daily CF App Start
 on:
   schedule:
     # 这个7点会被TZ时区设置解释为北京时间07:00
-    - cron: "0 7 * * *"
+    - cron: "0 6 * * *"
   workflow_dispatch:   # 支持手动触发
 
 jobs:
